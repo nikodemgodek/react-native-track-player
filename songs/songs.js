@@ -5,7 +5,8 @@ const songs = [
         artwork: require('../assets/artworks/bohemian.jpg'),
         url: require('../assets/gaga.mp3'),
         id: 0,
-        duration: 311
+        duration: 311,
+        isPlaying: false,
     },
     {
         title: 'You Know How We Do It',
@@ -13,7 +14,8 @@ const songs = [
         artwork: require('../assets/artworks/icecube.jpg'),
         url: require('../assets/icecube.mp3'),
         id: 1,
-        duration: 311
+        duration: 311,
+        isPlaying: false,
     },
     {
         title: "That's All",
@@ -21,7 +23,8 @@ const songs = [
         artwork: require('../assets/artworks/genesis.jpg'),
         url: require('../assets/Genesis.mp3'),
         id: 2,
-        duration: 311
+        duration: 311,
+        isPlaying: false,
     },
 ]
 

@@ -8,8 +8,7 @@ import { Audio } from 'expo-av';
 
 const screenWidth = Dimensions.get('window').width;
 
-const MusicPlayer = ({route}) => {
-
+const MusicPlayer = () => {
 
   const [sound, setSound] = useState(null);
   const [isPlaying, setIsPlaying] = useState(false);
@@ -23,8 +22,8 @@ const MusicPlayer = ({route}) => {
   const [isLooping, setIsLooping] = useState(false);
   const [favorities, setFavorities] = useState([]);
 
-
   useEffect(() => {
+
     const unloadSound = async () => {
       if (sound) {
         setPosition(0);
